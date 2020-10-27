@@ -37,4 +37,5 @@ jobs:
         with:
           args: deploy
         env:
+          PROJECT_ID: hillbaggers-test
           FIREBASE_TOKEN: ${{ secrets.FIREBASE_STAGING_TOKEN }}
